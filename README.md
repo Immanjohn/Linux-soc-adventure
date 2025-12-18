@@ -56,7 +56,4 @@ The project demonstrates practical Linux commands, process management, network d
 
 
 
-\## Folder Structure
-
-
 
