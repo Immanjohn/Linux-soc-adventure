@@ -1,0 +1,26 @@
+#CREATING THE VAULT (CONTROLLED CONTAINER)
+    mkdir .vault (making directory)
+  #CONFIRM THE FILE EXIST
+  ls -a (shows all files)
+  #LOCKDOWN THE FILE USING THIS COMMAND
+  chmod 700 .vault
+  7= owner full control
+  0= no access to group
+  0= no access to users
+
+#verify the security
+  ls -ld .vault
+
+#create your file inside the vault
+cd .vault   (cd is for changing directory for folder)
+touch secrets.txt   (touch command creates empty file)
+chmod 600 secrets.txt 
+6=Owner: read + write
+0=Group: no access
+0=Others: no access
+
+verify the files
+   ls -l secrets.txt (shows permission)
+   ls -la (shows files and permission)
+
+   
